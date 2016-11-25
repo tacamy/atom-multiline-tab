@@ -1,0 +1,23 @@
+@import "ui-variables";
+
+.tab-bar {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  overflow-y: visible;
+  height: auto !important;
+
+  &::after {
+    display: none !important;
+  }
+
+  .tab {
+    display: block !important;
+    flex: none !important;
+    top: 0 !important;
+    width: 15em !important;
+
+    .title {
+      text-align: left !important;
+    }
+  }
+}
