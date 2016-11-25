@@ -1,7 +1,7 @@
 @import "ui-variables";
 
 .tab-bar {
-  display: flex !important;
+  display: flex !important; // for specific theme　(display: table)
   flex-wrap: wrap !important;
   overflow-y: visible;
   height: auto !important;
@@ -11,13 +11,9 @@
   }
 
   .tab {
-    display: block !important;
-    flex: none !important;
+    display: block !important; // for specific theme　(display: table-cell)
     top: 0 !important;
-    width: 15em !important;
-
-    .title {
-      text-align: left !important;
-    }
+    min-width: 12em !important;
+    max-width: 20em !important;
   }
 }
