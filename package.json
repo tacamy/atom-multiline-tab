@@ -1,6 +1,6 @@
 {
   "name": "multiline-tab",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "When many tabs are opened, it will automatically wrap into multiple lines.",
   "keywords": [
     "tab",
